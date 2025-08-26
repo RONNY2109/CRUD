@@ -1,0 +1,22 @@
+{
+  "name": "servidor-express",
+  "version": "1.0.0",
+  "description": "Servidor de Ale",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandrordeveloper/CRUD.git"
+  },
+  "author": "ALejandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandrordeveloper/CRUD/issues"
+  },
+  "homepage": "https://github.com/alejandrordeveloper/CRUD#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
