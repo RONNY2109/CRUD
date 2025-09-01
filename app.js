@@ -3,7 +3,7 @@ const app = express();
 
 const {aleCursos} = require('./Datos/ale.js');
 const {alexanderCursos} = require('./Datos/alexander.js');
-const {ronnyCursos} = require('./Datos/ronny.js');
+const {ronnyCursos} = require('./Datos/materias.js');
 
 //ROUTERS
 
@@ -13,8 +13,8 @@ app.use('/api/ale/lenguajes', aleRouter);
 // const alexanderRouter = express.Router();
 // app.use('/api/ale/lenguajes', alexanderRouter);
 
-// const ronnyRouter = express.Router();
-// app.use('/api/ale/lenguajes', ronnyRouter);
+const ronnyRouter = express.Router();
+app.use('/api/ale/lenguajes', ronnyRouter);
 
 
 //ROUTING
