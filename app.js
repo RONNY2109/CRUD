@@ -14,7 +14,7 @@ app.use('/api/ale/lenguajes', aleRouter);
 // app.use('/api/ale/lenguajes', alexanderRouter);
 
 const ronnyRouter = express.Router();
-app.use('/api/ale/lenguajes', ronnyRouter);
+app.use('/api/ale/materias', ronnyRouter);
 
 
 //ROUTING
