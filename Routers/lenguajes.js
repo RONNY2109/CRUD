@@ -44,7 +44,7 @@ aleRouter.get('/:titulo/:nivel', (req, res) => {
 aleRouter.post('/', (req, res) => {
     let cursoNuevo = req.body;
     lenguajes.push(cursoNuevo);
-    res.send(cursoNuevo);
+    res.send(lenguajes);
 })
 
 //Metodo PUT para actualizar un curso existente
