@@ -13,7 +13,7 @@ app.use('/api/ale/lenguajes', aleRouter);
 // const alexanderRouter = express.Router();
 // app.use('/api/ale/lenguajes', alexanderRouter);
 
-const ronnyRouter = express.Router();
+const ronnyRouter = require('./Routers/materias.js');
 app.use('/api/materias', ronnyRouter);
 
 
