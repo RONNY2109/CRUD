@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 
+// Middleware para parsear JSON
+app.use(express.json());
+
 const {aleCursos} = require('./Datos/ale.js');
 const {alexanderCursos} = require('./Datos/alexander.js');
 const {ronnyCursos} = require('./Datos/materias.js');
