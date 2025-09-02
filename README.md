@@ -1,4 +1,4 @@
-# CRUD-TEAM 🚀
+# CRUD-TEAM 🐱‍🏍
 
 Repositorio del proyecto de ejemplo para manejo de cursos de lenguajes y materias.
 
