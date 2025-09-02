@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 
+// Middleware para parsear JSON
+app.use(express.json());
+
 const {aleCursos} = require('./Datos/ale.js');
 const {alexanderCursos} = require('./Datos/alexander.js');
 const {ronnyCursos} = require('./Datos/materias.js');
@@ -13,7 +16,7 @@ app.use('/api/ale/lenguajes', aleRouter);
 // const alexanderRouter = express.Router();
 // app.use('/api/ale/lenguajes', alexanderRouter);
 
-const ronnyRouter = express.Router();
+const ronnyRouter = require('./Routers/materias.js');
 app.use('/api/materias', ronnyRouter);
 
 
